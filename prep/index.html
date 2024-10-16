@@ -6,91 +6,270 @@
         <meta name="viewport" content="width=device-width, initilize">
         <link rel="icon" type="image/jpg" href="Images/NASA Space Wallpaper.jpg">
         <title>My first website</title>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
-        <a href="https://www.google.com/" target="_blank" title="Goes to google">
-            click me 
-        </a>
 
-        <br>
-        
-        <a href="lyrics.html" title="Lyrics to the song sinking deep" target="_blank">
-            Sinking Deep <!-- Linking two seperate files -->
-        </a>
-
-        <br>
-
-        <a href="mailto:olivia.gundra@gmail.com">
-            email me <!-- to send an email at an address -->
-        </a>
+        <header style="background-color: mediumaquamarine;">
+            <h1>Welcome to my website</h1>
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Products</a>
+            <a href="">Contact us</a>
+        </header>
+        <hr>
 
         <br>
 
-        <a href="https://www.nasa.gov/images/" target="_blank">
-            <h1>This a picture of my wallpaper</h1>
-            <img src="Images/NASA Space Wallpaper.jpg" height="500" alt="This is my wallpaper">
-            <h3>Space!!!</h3>
-        </a>
-
-        <br>
-        
-        <p>Everybody Get Up - Everet Almond</p>
-        <audio controls muted>
-            <source src="Music/Everybody Get Up - Everet Almond.mp3"  type="audio/mpeg">
-        </audio>
+        <main>
+            <a href="https://www.google.com/" target="_blank" title="Goes to google">
+                click me 
+            </a>
     
-        <br>
-
-        <p>Red Whine - Everet Almond</p>
-        <audio controls muted>
-            <source src="Music/Red Whine - Everet Almond.mp3" type="audio/mpeg">
-        </audio>
-
-        <br>
-
-        <!-- Skipped <video> cuz too similar to <audio> -->
-
-        <!-- text formatting -->
-
-        <p>
-            <b>Bold Text</b>
-            <i>Italic Text</i>
-            <u>Underlined Text</u>
-            <s>Strikethrough Text</s>
-            <mark style="background-color: lightgreen"> Marked Text </mark>
-            <del>Deleted Text</del>
-            <ins>Inserted Text</ins>
-            <sub>Subscript Text</sub>
-            <sup>Superscript Text</sup>
-            <small>Small Text</small>
-            <big>Big Text</big>
-            <tt>Typewriter Text</tt>
-            <dfn>Definition Term</dfn>
-            <abbr title="Abbreviation Title">Abbreviation</abbr>
-            <code>Code Text</code>
-            <var>Variable Text</var>
-            <samp>Sample Output</samp>
-            <kbd>Keyboard Text</kbd>
-            <q>Quoted Text</q>
-            <cite>Citation</cite>
-            <dfn>Description Term</dfn>
-        </p>
+            <br>
             
-        <br><br>
+            <a href="lyrics.html" title="Lyrics to the song sinking deep" target="_blank">
+                Sinking Deep <!-- Linking two seperate files -->
+            </a>
+    
+            <br>
+    
+            <a href="mailto:olivia.gundra@gmail.com">
+                email me <!-- to send an email at an address -->
+            </a>
+    
+            <br>
+    
+            <a href="https://www.nasa.gov/images/" target="_blank">
+                <h1>This a picture of my wallpaper</h1>
+                <img src="Images/NASA Space Wallpaper.jpg" height="500" alt="This is my wallpaper">
+                <h3>Space!!!</h3>
+            </a>
+    
+            <br>
+            
+            <p>Everybody Get Up - Everet Almond</p>
+            <audio controls muted>
+                <source src="Music/Everybody Get Up - Everet Almond.mp3"  type="audio/mpeg">
+            </audio>
+        
+            <br>
+    
+            <p>Red Whine - Everet Almond</p>
+            <audio controls muted>
+                <source src="Music/Red Whine - Everet Almond.mp3" type="audio/mpeg">
+            </audio>
+    
+            <br>
+    
+            <!-- Skipped <video> cuz too similar to <audio> -->
+    
+            <!-- text formatting -->
+    
+            <p>
+                <b>Bold Text</b>
+                <i>Italic Text</i>
+                <u>Underlined Text</u>
+                <s>Strikethrough Text</s>
+                <mark style="background-color: lightgreen"> Marked Text </mark>
+                <del>Deleted Text</del>
+                <ins>Inserted Text</ins>
+                <sub>Subscript Text</sub>
+                <sup>Superscript Text</sup>
+                <small>Small Text</small>
+                <big>Big Text</big>
+                <tt>Typewriter Text</tt>
+                <dfn>Definition Term</dfn>
+                <abbr title="Abbreviation Title">Abbreviation</abbr>
+                <code>Code Text</code>
+                <var>Variable Text</var>
+                <samp>Sample Output</samp>
+                <kbd>Keyboard Text</kbd>
+                <q>Quoted Text</q>
+                <cite>Citation</cite>
+                <dfn>Description Term</dfn>
+            </p>
+                
+            <br><br>
+    
+            <!-- span text and div -->
+    
+            <span style="background-color: tomato;">This is a span text</span> <!-- In-line container -->
+            <div style="background-color: lightblue;">This is a div text</div> <!-- Block container -->
+    
+            <p> <span style="background-color: aquamarine;">This is a pair for span text </span></p>
+            <p> <div style="background-color: yellow;">This is a pair for div text </div></p>
+    
+            <p> quisquam officiis blanditiis hic optio nisi numquam. <span style="background-color: burlywood;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure a et laboriosam voluptas Ea dolorem suscipit hic quibusdam at tempora nobis aperiam pariatur!</span></p>
+            <p> Harum, eius tenetur voluptate nisi soluta labore hic laboriosam <div style="background-color: lightskyblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit.  quod adipisci blanditiis aperiam ducimus expedita nihil saepe asperiores enim ex. Quasi, ex!</div> </p>
+    
+            <br><br>
+    
+            <!-- unordered lists! -->
+            <div style="background-color: yellowgreen; border: solid;">
+                <h4>Bulletted Fruits</h4>
+                <ul id="test">
+                    <li id="l1">Apple</li>
+                    <li id="l2">Banana</li>
+                    <li id="l3">Cherry</li>
+                    <li id="l4">Dragon Fruit</li>
+                    <li id="l5">Elderberry</li>
+                    <ul id="nest">
+                        <li>
+                            nested bullets
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+            
+    
+            <br>
+    
+            <!-- ordered lists! -->
+            <div style="background-color: burlywood; border: solid;">
+                <h4>Numbered Fruits</h4>
+                <ol>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Cherry</li>
+                    <li>Dragon Fruit</li>
+                    <li>Elderberry</li>
+                </ol>
+            </div>
+            
+    
+            <br>
+    
+            <!-- definition lists! -->
+            <div style="background-color: azure; border: solid;">
+                <h4>Fruits and their definitions:</h4>
+                <dl >
+                    <dt><b>Apple:</b></dt>
+                    <dd>A sweet, edible fruit</dd>
+                    <dt><b>Banana:</b></dt>
+                    <dd>yellow fruit</dd>
+                    <dt><b>Cherry:</b></dt>
+                    <dd>A red fruit</dd>
+                </dl>
+            </div>
+    
+            <br>
+    
+            <!-- Creating a table -->
+            <h3>Store Hours:</h3>
+            <table border="1" style="background-color:black">
+                <tr align="center" style="background-color: white;">
+                    <th width="100">Day</th>
+                    <th width="100">Open</th>
+                    <th width="100">Close</th>
+                </tr>
+                <tr align="center" style="background-color: white;">
+                    <td width="100">Monday</td>
+                    <td width="100">10:00 AM</td>
+                    <td width="100">8:00 PM</td>
+                </tr>
+                <tr align="center" style="background-color: white;">
+                    <td width="100">Tuesday</td>
+                    <td width="100">10:00 AM</td>
+                    <td width="100">8:00 PM</td>
+                </tr>
+                <tr align="center" style="background-color: white;">
+                    <td width="100">Wednesday</td>
+                    <td width="100">10:00 AM</td>
+                    <td width="100">8:00 PM</td>
+                </tr>
+                <tr align="center" style="background-color: white;">
+                    <td width="100">Thursday</td>
+                    <td width="100">10:00 AM</td>
+                    <td width="100">8:00 PM</td>
+                </tr>
+                <tr>
+            </table>
+    
+            <br><br>
+    
+            <!-- Creating buttons and adding some javascript -->
+            <button onclick="doSomething()" style="background-color: blanchedalmond; border-radius: 20px;">Click me</button>
+            
+            <p id="hello">Button</p>
+            <script>
+                function doSomething(){
+                    document.getElementById("hello").innerHTML = "bye bye";
+                }
+            </script>
+    
+            <br><br>
+    
+            <!-- creating forms -->
+    
+            <form action="index.PHP" method="post">
+                <label for="Username"> Username:</label>
+                <input type="text" id="Username" placeholder="ID" required minlength="6" maxlength="10">
+    
+                <br>
+    
+                <label for="password"> Password:</label>
+                <input type="password" placeholder="pass" id="password">
+    
+                <br>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="first.last@gmail.com" required="@">
+    
+                <br>
+    
+                <label for="title">Title:</label>
+                
+                <label for="Mr."> Mr.</label>
+                <input type="radio" id="Mr." name="title" placeholder="Mr.">
+    
+                <label for="Ms."> Ms.</label>
+                <input type="radio" name="title" id="Ms.">
+    
+                <label for="PHD"> PHD</label>
+                <input type="radio" id="title" name="title" placeholder="Mr./Ms./PHD">
+    
+                <br>
+    
+                <label for="visa">Visa:</label>
+                <select name="visa" id="visa">
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">MasterCard</option>
+                    <option value="American Express">American Express</option>
+                </select>
+    
+                <br><br>
+    
+                <label for="comment">Comment:</label>
+                <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+    
+                <br><br>
+    
+                <label for="file">Files:</label>
+                <input type="file" name="" id="file">
+    
+                <br><br>
+    
+                <input type="reset">
+                <input type="submit"> 
+            </form>    
+        </main>
+        
+        <hr>
 
-        <!-- span text and div -->
-
-        <span style="background-color: tomato;">This is a span text</span> <!-- In-line container -->
-        <div style="background-color: lightblue;">This is a div text</div> <!-- Block container -->
-
-        <p> <span style="background-color: aquamarine;">This is a pair for span text </span></p>
-        <p> <div style="background-color: yellow;">This is a pair for div text </div></p>
-
-        <p> quisquam officiis blanditiis hic optio nisi numquam. <span style="background-color: burlywood;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure a et laboriosam voluptas Ea dolorem suscipit hic quibusdam at tempora nobis aperiam pariatur!</span></p>
-        <p> Harum, eius tenetur voluptate nisi soluta labore hic laboriosam <div style="background-color: lightskyblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit.  quod adipisci blanditiis aperiam ducimus expedita nihil saepe asperiores enim ex. Quasi, ex!</div> </p>
-
-        <br><br>
-
-        <!-- Lists! -->
+        <footer style="background-color: mediumaquamarine;">
+            <p>© 2022 My Webpage. All rights reserved.</p>
+            <a href="mailto:obed.gundra@gmail.com">obed.gundra@gmail.com</a> <br>
+            <a href="https://www.google.com">Google</a>
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.twitter.com">Twitter</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+            <a href="https://www.github.com">GitHub</a>
+            <a href="https://www.stackoverflow.com">StackOverflow</a>
+            <a href="https://www.youtube.com">YouTube</a>
+            <a href="https://www.reddit.com">Reddit</a> 
+            <a href="https://www.wikipedia.org">Wikipedia</a> <br>
+        </footer>
     </body>
 </html>
